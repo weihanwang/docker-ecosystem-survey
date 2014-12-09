@@ -1,9 +1,7 @@
 Docker Ecosystem Survey
 =======================
 
-*[ work in progress ]*
-
-An incomplete survey of the Docker ecosystem. Lots of products are [yet to be surveyed](#to-be-surveyed). Comments and pull requests welcome!
+An incomplete survey of the Docker ecosystem. Many products are [yet to be surveyed](#to-be-surveyed). Comments and pull requests welcome!
 
 Most products mentioned here are in Beta or even Alpha. Competition is fierce and churn is high. Dead products will be removed from the list and new ones will be added.
 
@@ -56,6 +54,7 @@ Note: Such a framework should include at least container management, cluster man
 ## Container high-availability & scaling
 
 - Kubernetes ReplicationControllers. [The reconciler model](http://youtu.be/YrxnVKZeqK8?t=20m19s) is great.
+- fig. The `fig scale` command
 - Flynn. The `flynn scale` command
 - Deis
 
@@ -69,7 +68,7 @@ Note: Such a framework should include at least container management, cluster man
 - [Maestro NG](https://github.com/signalfuse/maestro-ng)
 - Panamax from CenturyLink: Application templating. Have a nice Web UI. “makes deploying complex containerized apps as easy as Drag-and-Drop."
 
-## Container inter-networking
+## Container inter-networking across hosts
 
 - Kubernetes networking (https://github.com/GoogleCloudPlatform/kubernetes/blob/master/docs/ovs-networking.md)
 - systemd in CoreOS: %H specifiers, written to etcd, and use sidekicks to monitor downtimes
