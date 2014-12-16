@@ -100,6 +100,8 @@ Solomon proposed to support VXLAN from the Docker core.
 ## DevOps streamlining & tooling
 
 - Fig
+    - In my own experience with OSX/boot2docker, `fig up` can be quite slow (in the matter of tens of seconds) with about 20 containers.
+- [Crane](https://github.com/michaelsauter/crane)
 - Deis
 - Flynn
 - [Modit](https://mod.it): for staging.
@@ -130,6 +132,10 @@ libcontainers
 libchan
 libswarm (seems dead from github stat as of Dec 2014)
 
+## Docker service providers
+
+- [Container Solutions](http://container-solutions.com/)
+
 ## Useful resources
 
 - [CenturyLink Labs](http://www.centurylinklabs.com/): Covers Docker related news and tutorials.
@@ -140,7 +146,10 @@ libswarm (seems dead from github stat as of Dec 2014)
 ## To be surveyed
 
 - Products from [this mind map](http://www.mindmeister.com/389671722/docker-ecosystem).
+- crane
 - [Shipyard](http://shipyard-project.com/)
+- SaltStack
+- Cloud Foundry (Diego)
 - Helios
 - Centurion
 - Shipper
