@@ -101,6 +101,7 @@ Solomon proposed to support VXLAN from the Docker core.
 
 - Fig
     - In my own experience with OSX/boot2docker, `fig up` can be quite slow (in the matter of tens of seconds) with about 20 containers.
+    - `fig up <container>` doesn't start `volumes-from` containers of the specified one.
 - [Crane](https://github.com/michaelsauter/crane)
 - Deis
 - Flynn
@@ -145,6 +146,7 @@ libswarm (seems dead from github stat as of Dec 2014)
 
 ## To be surveyed
 
+- [Rancher](www.rancher.com)
 - Products from [this mind map](http://www.mindmeister.com/389671722/docker-ecosystem).
 - crane
 - [Shipyard](http://shipyard-project.com/)
