@@ -75,6 +75,11 @@ Note: Such a framework should include at least container management, cluster man
 - CoreOS Flannel: can be used by Kubernetes: https://github.com/coreos/flannel#flannel
 - Weave
 
+## Custom network topologies on a single host
+
+- [Pipework](https://github.com/jpetazzo/pipework)
+- An example of using Docker to simulate complex topologies: https://github.com/brandon-rhodes/fopnp/tree/m/playground
+
 Solomon proposed to support VXLAN from the Docker core.
 
 ## Container scheduling (i.e. cron for Docker)
