@@ -23,11 +23,14 @@ Note: Such a framework should include at least container management, cluster man
 - Tsuru: http://blog.tsuru.io/architecture/2014/04/04/running-tsuru-in-production-scaling-and-segregating-docker-containers.html
 - [Decking](http://decking.io/)
 - Flocker. Mainly designed for data volume management. User specifies container-to-host mapping.
+- [Rancher](www.rancher.io)
 
 ## Host OSes designed for Docker
 
 - [CoreOS](https://coreos.com). Use systemd to manage container upstarts and dependencies, etcd for service discovery, and CoreUpdate for operating system updates.
 - [SmartOS](https://www.joyent.com/technology/smartos)
+- [Ubuntu Core](http://www.ubuntu.com/cloud/tools/snappy)
+- [Project Atomic](http://www.projectatomic.io/) from Redhat. Used by OpenShift.
 
 ## Host cluster management
 
@@ -43,6 +46,7 @@ Note: Such a framework should include at least container management, cluster man
 - ZooKeeper
 - doozerd: dead. https://news.ycombinator.com/item?id=6366665
 - Serf: decentralized etcd
+- [SmartStack](http://nerds.airbnb.com/smartstack-service-discovery-cloud/) from airbnb
 
 ## Container placement
 
@@ -67,6 +71,7 @@ Note: Such a framework should include at least container management, cluster man
 - [Maestro](https://github.com/toscanini/maestro): seems dead. 
 - [Maestro NG](https://github.com/signalfuse/maestro-ng)
 - Panamax from CenturyLink: Application templating. Have a nice Web UI. “makes deploying complex containerized apps as easy as Drag-and-Drop."
+- [Procfile](https://devcenter.heroku.com/articles/procfile): used at Heroku and by Flynn and Deis.
 
 ## Container inter-networking across hosts
 
@@ -116,7 +121,7 @@ Solomon proposed to support VXLAN from the Docker core.
 
 ## Image hosting companies (i.e. private registries)
 
-- Quay.io
+- Quay.io from CoreOS
 - Docker Hub Enterprise
 - Private Docker registries using the “registry" docker image.
 
@@ -128,9 +133,8 @@ Note: some of them run actual containers on 3rd-party cloud providers.
 - Rackspace
 - GCE
 - Orchard
-- Tutum
+- [tutum](https://www.tutum.co/)
 - Joyent
-- CoreOS, Managed Linux / Cluster
 - https://stackdock.com/
 
 Libraries:
@@ -151,11 +155,9 @@ libswarm (seems dead from github stat as of Dec 2014)
 
 ## To be surveyed
 
-- [Rancher](www.rancher.com)
 - Products from [this mind map](http://www.mindmeister.com/389671722/docker-ecosystem).
 - crane
 - [Shipyard](http://shipyard-project.com/)
-- SaltStack
 - Cloud Foundry (Diego)
 - Helios
 - Centurion
@@ -168,8 +170,9 @@ libswarm (seems dead from github stat as of Dec 2014)
 - Tsuru
 - YARN?
 - [Decking](http://decking.io/)
-- [Project Atomic](http://www.projectatomic.io/) from Redhat. Used by OpenShift. 
 - [Geard](http://www.openshift.org/geard/) from Redhat. Core of OpenShift.
+- [odoo-hosting-orchestrator](https://github.com/odoo-vertical-hosting/odoo-hosting-orchestrator)
+- [IndiePaaS](https://github.com/pierreozoux/indiepaas)
 
 
 ## TODOs
