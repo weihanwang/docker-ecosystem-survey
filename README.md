@@ -72,6 +72,7 @@ Note: Such a framework should include at least container management, cluster man
 - [Maestro NG](https://github.com/signalfuse/maestro-ng)
 - Panamax from CenturyLink: Application templating. Have a nice Web UI. “makes deploying complex containerized apps as easy as Drag-and-Drop."
 - [Procfile](https://devcenter.heroku.com/articles/procfile): used at Heroku and by Flynn and Deis.
+- [Marathon](https://mesosphere.github.io/marathon/docs/native-docker.html)
 
 ## Container inter-networking across hosts
 
