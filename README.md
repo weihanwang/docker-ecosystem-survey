@@ -12,7 +12,7 @@ Note: Such a framework should include at least container management, cluster man
 - Kubernetes: [See archiecture](https://raw.githubusercontent.com/GoogleCloudPlatform/kubernetes/master/docs/architecture.png). 
 - [Kubernetes on Mesos](https://github.com/mesosphere/kubernetes-mesos): "Mesos provides the fine-grained resource allocations for pods across nodes in a cluster, and can make Kubernetes play nicely with other frameworks running on the same cluster resources."
 - OpenShift: uses Kubernetes
-- Mesosphere (Mesos + Marathon + Chronos): Does it support docker dependency and cross-host networking?
+- [Mesosphere](https://mesosphere.com/) (Mesos + Marathon + Chronos)
 - Docker Machine, Swarm, & Compose
 - [OpenStack Docker](https://wiki.openstack.org/wiki/Docker)
 - SmartDataCenter from Joyent
