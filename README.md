@@ -24,6 +24,7 @@ Note: Such a framework should include at least container management, cluster man
 - [Decking](http://decking.io/)
 - Flocker. Mainly designed for data volume management. User specifies container-to-host mapping.
 - [Rancher](www.rancher.io)
+- [Clocker](https://github.com/brooklyncentral/clocker)
 
 ## Host OSes designed for Docker
 
