@@ -33,11 +33,12 @@ Note: Such a framework should include at least container management, cluster man
 - [SmartOS](https://www.joyent.com/technology/smartos)
 - [Ubuntu Core](http://www.ubuntu.com/cloud/tools/snappy)
 - [Project Atomic](http://www.projectatomic.io/) from Redhat. Used by OpenShift.
+- [Rancher OS](http://rancher.com/rancher-os/). All system services are implemented as containers and therefore "eliminate the need for complex init systems like systemd". Rancher OS runs two Docker daemons: system docker and user docker. It does not use systemd.
 
 ## Host cluster management
 
 - All orchestration frameworks provide cluster management one way or the other
-- Docker Machines
+- Docker Machine
 - CoreOS Fleet: initd for containers
 
 ## Service discovery & configuration
@@ -114,7 +115,7 @@ Solomon proposed to support VXLAN from the Docker core.
 
 - Fig
     - In my own experience with OSX/boot2docker, `fig up` can be quite slow (in the matter of tens of seconds) with about 20 containers.
-    - `fig up <container>` doesn't start `volumes-from` containers of the specified one.
+    - `fig up <container>` doesn't start `volumes-from` containers.
 - [Crane](https://github.com/michaelsauter/crane)
 - Deis
 - Flynn
@@ -130,23 +131,17 @@ Solomon proposed to support VXLAN from the Docker core.
 
 ## Container hosting companies
 
-Note: some of them run actual containers on 3rd-party cloud providers.
-
-- AWS
+- AWS Container Service
+- Google Container Engine
 - Rackspace
-- GCE
 - Orchard
 - [tutum](https://www.tutum.co/)
 - Joyent
 - https://stackdock.com/
 - [SailAbove](https://labs.runabove.com/docker/)
+- [Cloud66](http://www.cloud66.com/)
 
-Libraries:
-libcontainers
-libchan
-libswarm (seems dead from github stat as of Dec 2014)
-
-## Docker service providers
+## Professional service providers
 
 - [Container Solutions](http://container-solutions.com/)
 
