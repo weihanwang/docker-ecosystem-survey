@@ -171,7 +171,7 @@ Solomon proposed to support VXLAN from the Docker core.
 - YARN?
 - [Decking](http://decking.io/)
 - [Geard](http://www.openshift.org/geard/) from Redhat. Core of OpenShift.
-- [odoo-hosting-orchestrator](https://github.com/odoo-vertical-hosting/odoo-hosting-orchestrator)
+- [goclouder](https://www.goclouder.net/)
 - [IndiePaaS](https://github.com/pierreozoux/indiepaas)
 
 
