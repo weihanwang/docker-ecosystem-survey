@@ -9,20 +9,20 @@ Most products mentioned here are in Beta or even Alpha. Competition is fierce an
 
 Note: Such a framework should include at least container management, cluster management, and container placement functions. Example optional functions are fault-tolerance, replication, monitoring, development workflow automation, container dependency management, data store services, container versioning, etc.
 
-- Kubernetes: [See archiecture](https://raw.githubusercontent.com/GoogleCloudPlatform/kubernetes/master/docs/architecture.png). 
+- Kubernetes: [See architecture](https://raw.githubusercontent.com/GoogleCloudPlatform/kubernetes/master/docs/architecture.png). 
 - [Kubernetes on Mesos](https://github.com/mesosphere/kubernetes-mesos): "Mesos provides the fine-grained resource allocations for pods across nodes in a cluster, and can make Kubernetes play nicely with other frameworks running on the same cluster resources."
 - OpenShift: uses Kubernetes
 - [Mesosphere](https://mesosphere.com/) (Mesos + Marathon + Chronos)
-- Docker Machine, Swarm, & Compose
+- [Docker Machine](https://github.com/docker/machine), [Swarm](https://github.com/docker/swarm), & [Compose](https://github.com/docker/compose)
 - [OpenStack Docker](https://wiki.openstack.org/wiki/Docker)
-- SmartDataCenter from Joyent
+- [SmartDataCenter](https://github.com/joyent/sdc) from Joyent
 - Deis from OpDemand: Uses CoreOS (fleet, etcd, etc.). Provides streamlined development/deployment workflow. [Doesn’t support container dependency](https://groups.google.com/forum/#!msg/deis-users/H50Yvh2bMyY/VKPf0DU_q1QJ)
 - Flynn: Uses etcd. Similar to Deis. A general PaaS system. Not Docker specific.
-- [dokku](https://github.com/progrium/dokku): a mini-Heroku for Docker.
+- [dokku](https://github.com/progrium/dokku): a mini-Heroku for Docker (sponsored by Deis).
 - Serf from maker of Vagrant: not Docker specific. http://www.centurylinklabs.com/decentralizing-docker-how-to-use-serf-with-docker/
 - Tsuru: http://blog.tsuru.io/architecture/2014/04/04/running-tsuru-in-production-scaling-and-segregating-docker-containers.html
 - [Decking](http://decking.io/)
-- Flocker. Mainly designed for data volume management. User specifies container-to-host mapping.
+- [Flocker](https://github.com/clusterhq/flocker). Mainly designed for data volume management. User specifies container-to-host mapping.
 - [Rancher](www.rancher.io)
 - [Clocker](https://github.com/brooklyncentral/clocker)
 - [paz](https://github.com/yldio/paz)
@@ -64,13 +64,12 @@ Note: Such a framework should include at least container management, cluster man
 - Kubernetes ReplicationControllers. [The reconciler model](http://youtu.be/YrxnVKZeqK8?t=20m19s) is great.
 - fig. The `fig scale` command
 - Flynn. The `flynn scale` command
-- Deis
+- Deis. The `deis scale` command
 
 ## Container dependency management
 
 - CoreOS systemd: ad hoc through unit directives
-- fig
-- Docker Compose
+- Docker Compose (formerly fig)
 - Kubernetes Services concept: decouples inter-dependent containers and doesn’t allow explicit dependency declaration
 - [Maestro](https://github.com/toscanini/maestro): seems dead. 
 - [Maestro NG](https://github.com/signalfuse/maestro-ng)
@@ -134,11 +133,11 @@ Solomon proposed to support VXLAN from the Docker core.
 
 - AWS Container Service
 - Google Container Engine
-- Rackspace
+- [Rackspace](www.rackspace.com)
 - Orchard
 - [tutum](https://www.tutum.co/)
-- Joyent
-- https://stackdock.com/
+- [Joyent](https://www.joyent.com/)
+- [StackDock](https://stackdock.com/)
 - [SailAbove](https://labs.runabove.com/docker/)
 - [Cloud66](http://www.cloud66.com/)
 
@@ -173,7 +172,6 @@ Solomon proposed to support VXLAN from the Docker core.
 - [Geard](http://www.openshift.org/geard/) from Redhat. Core of OpenShift.
 - [goclouder](https://www.goclouder.net/)
 - [IndiePaaS](https://github.com/pierreozoux/indiepaas)
-
 
 ## TODOs
 
