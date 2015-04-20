@@ -36,7 +36,7 @@ Note: Such a framework should include at least container management, cluster man
 - [Ubuntu Core](http://www.ubuntu.com/cloud/tools/snappy)
 - [Project Atomic](http://www.projectatomic.io/) from Redhat. Used by OpenShift.
 - [Rancher OS](http://rancher.com/rancher-os/). All system services are implemented as containers and therefore "eliminate the need for complex init systems like systemd". Rancher OS runs two Docker daemons: system docker and user docker. It does not use systemd.
-- VMWare's [Project Photon](https://blogs.vmware.com/cloudnative/introducing-photon/) It is ["optimized for VMware vSphere and VMware vCloud Air environments."](http://www.forbes.com/sites/benkepes/2015/04/20/vmware-introduces-new-open-source-projects-to-enable-the-microservices-future/?utm_content=buffer8ee19&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
+- [Project Photon](https://blogs.vmware.com/cloudnative/introducing-photon/) from VMWare. It is ["optimized for VMware vSphere and VMware vCloud Air environments."](http://www.forbes.com/sites/benkepes/2015/04/20/vmware-introduces-new-open-source-projects-to-enable-the-microservices-future/?utm_content=buffer8ee19&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
 
 ## Host cluster management
 
@@ -63,7 +63,7 @@ Note: Such a framework should include at least container management, cluster man
 
 ## Container security
 
-- [VMWare Project Lightwave](http://blogs.vmware.com/cloudnative/introducing-lightwave/)
+- [Project Lightwave](http://blogs.vmware.com/cloudnative/introducing-lightwave/) from VMWare
 
 ## Container high-availability & scaling
 
