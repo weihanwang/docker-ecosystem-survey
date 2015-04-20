@@ -27,6 +27,7 @@ Note: Such a framework should include at least container management, cluster man
 - [Clocker](https://github.com/brooklyncentral/clocker)
 - [paz](https://github.com/yldio/paz)
 - [galazy](https://github.com/litl/galaxy)
+- [Lattice](http://lattice.cf/) from Pivotal
 
 ## Host OSes designed for Docker
 
@@ -35,10 +36,11 @@ Note: Such a framework should include at least container management, cluster man
 - [Ubuntu Core](http://www.ubuntu.com/cloud/tools/snappy)
 - [Project Atomic](http://www.projectatomic.io/) from Redhat. Used by OpenShift.
 - [Rancher OS](http://rancher.com/rancher-os/). All system services are implemented as containers and therefore "eliminate the need for complex init systems like systemd". Rancher OS runs two Docker daemons: system docker and user docker. It does not use systemd.
+- VMWare's [Project Photon](https://blogs.vmware.com/cloudnative/introducing-photon/) It is ["optimized for VMware vSphere and VMware vCloud Air environments."](http://www.forbes.com/sites/benkepes/2015/04/20/vmware-introduces-new-open-source-projects-to-enable-the-microservices-future/?utm_content=buffer8ee19&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
 
 ## Host cluster management
 
-- All orchestration frameworks provide cluster management one way or the other
+- All Docker orchestration frameworks (see Section 1) provide cluster management one way or the other
 - Docker Machine
 - CoreOS Fleet: initd for containers
 
@@ -58,6 +60,10 @@ Note: Such a framework should include at least container management, cluster man
 - CoreOS Fleet: Only for initial placement. Use systemd as underlying tool. Features: X-Fleet:Conflicts, global units, unit multi-instantiation, machine metadata match.
 - Docker Swarm
 - All orchestration frameworks provide container placement
+
+## Container security
+
+- [VMWare Project Lightwave](http://blogs.vmware.com/cloudnative/introducing-lightwave/)
 
 ## Container high-availability & scaling
 
