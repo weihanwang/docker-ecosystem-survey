@@ -108,8 +108,9 @@ Solomon proposed to support VXLAN from the Docker core.
 - Deis: [See this doc](http://docs.deis.io/en/latest/using_deis/config-application/#track-changes)
 - Flock?
 
-## Container monitoring & resource enforcement
+## Container monitoring, troubleshooting & resource enforcement
 
+- [sysdig](http://www.sysdig.org/)
 - Kubernetes cAdvisor
 - LMCTFY
 
@@ -119,7 +120,7 @@ Solomon proposed to support VXLAN from the Docker core.
 
 ## DevOps streamlining & tooling
 
-- Fig
+- docker-compose (was fig)
     - In my own experience with OSX/boot2docker, `fig up` can be quite slow (in the matter of tens of seconds) with about 20 containers.
     - `fig up <container>` doesn't start `volumes-from` containers.
 - [Crane](https://github.com/michaelsauter/crane)
@@ -146,6 +147,7 @@ Solomon proposed to support VXLAN from the Docker core.
 - [StackDock](https://stackdock.com/)
 - [SailAbove](https://labs.runabove.com/docker/)
 - [Cloud66](http://www.cloud66.com/)
+- [Giant Swarm](https://giantswarm.io/)
 
 ## Professional service providers
 
