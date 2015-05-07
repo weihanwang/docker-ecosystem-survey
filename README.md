@@ -180,6 +180,7 @@ Solomon proposed to support VXLAN from the Docker core.
 - [Geard](http://www.openshift.org/geard/) from Redhat. Core of OpenShift.
 - [goclouder](https://www.goclouder.net/)
 - [IndiePaaS](https://github.com/pierreozoux/indiepaas)
+- [apcera](https://www.apcera.com/)
 
 ## TODOs
 
