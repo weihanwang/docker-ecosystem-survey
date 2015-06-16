@@ -28,6 +28,7 @@ Note: Such a framework should include at least container management, cluster man
 - [paz](https://github.com/yldio/paz)
 - [galazy](https://github.com/litl/galaxy)
 - [Lattice](http://lattice.cf/) from Pivotal
+- [weave.works](http://weave.works/)
 
 ## Host OSes designed for Docker
 
