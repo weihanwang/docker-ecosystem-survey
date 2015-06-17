@@ -29,6 +29,7 @@ Note: Such a framework should include at least container management, cluster man
 - [galazy](https://github.com/litl/galaxy)
 - [Lattice](http://lattice.cf/) from Pivotal
 - [weave.works](http://weave.works/)
+- [Empire](https://github.com/remind101/empire). A control layer on top of Amazon EC2 ECS.
 
 ## Host OSes designed for Docker
 
