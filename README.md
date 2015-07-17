@@ -30,6 +30,8 @@ Note: Such a framework should include at least container management, cluster man
 - [Lattice](http://lattice.cf/) from Pivotal
 - [weave.works](http://weave.works/)
 - [Empire](https://github.com/remind101/empire). A control layer on top of Amazon EC2 ECS.
+- [gantryd](https://github.com/DevTable/gantryd)  Framework for easy management of docker-based components across machines
+
 
 ## Host OSes designed for Docker
 
