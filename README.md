@@ -31,7 +31,7 @@ Note: Such a framework should include at least container management, cluster man
 - [weave.works](http://weave.works/)
 - [Empire](https://github.com/remind101/empire). A control layer on top of Amazon EC2 ECS.
 - [gantryd](https://github.com/DevTable/gantryd)  Framework for easy management of docker-based components across machines
-
+- [containership.io](https://github.com/containership/containership)  A simple container management platform.
 
 ## Host OSes designed for Docker
 
@@ -108,7 +108,7 @@ Solomon proposed to support VXLAN from the Docker core.
 ## Container updates & versioning
 
 - CoreOS CoreUpdate (paid service): mainly server-side implementations. Client side requires non-trivial integration work (We can use standard docker tag/pull mechanisms instead).
-- Fig's Run stage
+- Docker-compose's Run stage
 - Deis: [See this doc](http://docs.deis.io/en/latest/using_deis/config-application/#track-changes)
 - Flock?
 
