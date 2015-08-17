@@ -153,6 +153,7 @@ Solomon proposed to support VXLAN from the Docker core.
 - [Cloud66](http://www.cloud66.com/)
 - [Giant Swarm](https://giantswarm.io/)
 - [InstaDocker](http://instadocker.com/)
+- [sloppy.io]{http://sloppy.io/}
 
 ## Professional service providers
 
